@@ -28,5 +28,6 @@ int main()
         ExecuteChoice(choice);
 
     } while (choice != 0);
+    printf("Thank you for using the Student Management System. Goodbye!\n");
     return 0;
 }
