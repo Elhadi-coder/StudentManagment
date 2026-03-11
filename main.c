@@ -29,5 +29,7 @@ int main()
 
     } while (choice != 0);
     printf("Thank you for using the Student Management System. Goodbye!\n");
+    printf("                     ('_')('_')('_')              \n");
+    Sleep(2000);
     return 0;
 }
