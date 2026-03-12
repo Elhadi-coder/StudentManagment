@@ -148,7 +148,7 @@ The program displays the menu where you can choose the operations.
 
 1. **Program Menu**
 
-![Program Menu](images/The_Menu.png)
+![Program Menu](images/The_Menu.png.png)
 
 2. **Confirm Deletion**
 
