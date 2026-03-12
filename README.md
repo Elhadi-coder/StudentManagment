@@ -148,15 +148,15 @@ The program displays the menu where you can choose the operations.
 
 1. **Program Menu**
 
-![Program Menu](images/The Menu.png)
+![Program Menu](images/The_Menu.png)
 
 2. **Confirm Deletion**
 
-![Confirm Deletion](images/Confirm deletion.png)
+![Confirm Deletion](images/Confirm_deletion.png)
 
 3. **Program Start**
 
-![Program Start](images/Program start.png)
+![Program Start](images/Program_start.png)
 
 > Make sure all images are placed inside the `images/` folder in your project.
 
