@@ -102,6 +102,7 @@ StudentManagment/
 ├── Student.h     // struct and function declarations
 ├── Student.c     // implementation of student functions
 ├── Bankey.txt    // data file storing student records
+├── images/       // folder for screenshots of program output
 └── README.md     // project description
 ```
 
@@ -109,7 +110,15 @@ StudentManagment/
 
 ## [7] Compilation
 
-To compile using GCC:
+### On Windows (GCC / MinGW)
+To compile:
+
+```
+gcc main.c Student.c -o Student.exe -mconsole
+```
+
+### On Linux / Mac
+To compile:
 
 ```
 gcc main.c Student.c -o student_system
@@ -119,7 +128,13 @@ gcc main.c Student.c -o student_system
 
 ## [8] Running the Program
 
-After compiling, run:
+### On Windows
+
+```
+.\Student.exe
+```
+
+### On Linux / Mac
 
 ```
 ./student_system
@@ -129,7 +144,25 @@ The program displays the menu where you can choose the operations.
 
 ---
 
-## [9] Purpose
+## [9] Example Output (Screenshots)
+
+1. **Program Menu**
+
+![Program Menu](images/The Menu.png)
+
+2. **Confirm Deletion**
+
+![Confirm Deletion](images/Confirm deletion.png)
+
+3. **Program Start**
+
+![Program Start](images/Program start.png)
+
+> Make sure all images are placed inside the `images/` folder in your project.
+
+---
+
+## [10] Purpose
 
 This project was developed to practice:
 
@@ -142,14 +175,14 @@ It is suitable for beginner students learning **C programming**.
 
 ---
 
-## [10] Author
+## [11] Author
 
 **Mohamed Elhadi**  
 GitHub: [https://github.com/Elhadi-coder](https://github.com/Elhadi-coder)
 
 ---
 
-## [11] Future Improvements
+## [12] Future Improvements
 
 - Add input validation  
 - Implement sorting functionality  
